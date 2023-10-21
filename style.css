@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+   
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: black 2px solid;
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.topnev{
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+#top{
+    color: greenyellow;
+    border:black 3px solid;
+    background-color: black;
+    font-size: 14px;
+    padding: 7px;
+    margin-top: 3px;
+    text-decoration: none;
+    border-radius: 40px;
+}
+#top:hover{
+    color: red;
+}
+.active{
+    background-color: black;
+    color: white;
+    border: black solid 2px;
+    font-size: 14px;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 40px;
+}
+.active:hover{
+    color: red;
+}
+.flex2{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px;
+    background-color: aliceblue;
+}
+.img{
+  margin-top: 40px;
+ 
+}
+.dp{
+    border: white solid 5px;
+    border-radius: 50%;
+
+}
+#about{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 60px;
+   margin-top: 40px;
+}
+#abb{
+    color: blueviolet;
+    font-size: 40px;
+    font-family: cursive;
+}
+#ab{
+    padding: 50px;
+}
+#ab p{
+    font-size: 25px;
+    font-variant: small-caps;
+}
+.hey{
+    text-align: left;
+    font-size: 80px;
+    color: rgb(35, 35, 107);
+}
+.abhi{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-size: 20px;
+    text-align: center
+}
+.flex3{
+border-radius: 40px;
+border: solid 2px violet;
+padding: 80px;
+display: flex;
+justify-content: space-evenly;
+}
+.containerimages{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.flex5{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contactus{
+    text-align: center;
+margin-top: 50px;
+font-size: 25px;
+}
+#contact{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.gif{
+    height: 150px;
+    width: 150px;
+    border: black 2px solid;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.co{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%;
+}
+.flex4{
+    border: 5px double black;
+    color: black;
+    border-radius: 20%;
+    margin: 120px 200px;
+    padding: 100px;
+    background-color: aliceblue;
+box-shadow: 0 0 4em blue;
+
+}
+.sk{
+    border: red 2px solid;
+   background-color: black;
+    list-style-type: none;
+    height: 60px;
+    width: 200px;
+    font-size: 45px;
+    margin: auto;
+}
+#skill{
+    text-align: center;
+    text-decoration: underline;
+}
+.flex4.1{
+    box-shadow: 0 0 6em blueviolet;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.formIn{
+    padding: 30px;
+    border: black 5px double;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+#Message{
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+}
+li{
+    color: white;
+    margin-left: 5px;
+    font-size: 200px;
+}
+.input{
+    border: black 2px solid;
+    height: 30px;
+    width: 400px;
+    background-color: aliceblue;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.inputt{
+    border: black 2px solid;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: aliceblue;
+    color:black;
+    width: 400px;
+}
+.la{
+    color: black;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.query{
+    font-style: italic;
+    color: rgb(16, 2, 2);
+    font-size: 30px;
+    text-decoration: double;
+}
+.submit{
+border: black 2px solid;
+background-color: red;
+color: black;
+float: right;
+margin: 5px 18px 8px;
+}
+.submit:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+    cursor: pointer;
+}
